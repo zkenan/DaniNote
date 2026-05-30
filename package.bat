@@ -1,24 +1,24 @@
 @echo off
 chcp 65001 >nul
 echo ============================================
-echo   Е╪═Е╪═Д╬©Г╜╬ (Znote) - Ф┴⌠Е▄┘Х└ Ф°╛
+echo   уеуе╠Цг╘ (Znote) - ╢Р╟Э╫е╠╬
 echo ============================================
 echo.
 
 cd /d "%~dp0"
 
-:: Д╪≤Е┘┬Д╫©Г■╗И║╧Г⌡╝ venv Д╦╜Г └ Python
+:: сеохй╧сцоНд© venv жп╣д Python
 if exist "venv\Scripts\python.exe" (
     set PYTHON_EXE=venv\Scripts\python.exe
 ) else (
     set PYTHON_EXE=python.exe
 )
 
-echo Д╫©Г■╗ PythonО╪ %PYTHON_EXE%
+echo й╧сц Pythonё╨%PYTHON_EXE%
 echo.
 
-:: Х©░Х║▄ Python Ф┴⌠Е▄┘Х└ Ф°╛
-echo Е╪─Е╖▀Ф┴⌠Е▄┘...
+:: ткпп Python ╢Р╟Э╫е╠╬
+echo ©╙й╪╢Р╟Э...
 echo.
 "%PYTHON_EXE%" package.py
 
